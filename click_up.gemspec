@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.author = "ayer-dines"
   s.files = `git ls-files`.split("\n")
   s.email = "budhayer96d@gmail.com"
+  s.homepage = "https://github.com/ayerdines/clickup-ruby"
   s.license = "MIT"
   s.require_paths = ["lib"]
 end
