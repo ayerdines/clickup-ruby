@@ -6,7 +6,7 @@ require "click_up/version"
 
 Gem::Specification.new do |s|
   s.name = "click_up"
-  s.version = "0.0.1"
+  s.version = ClickUp::VERSION
   s.required_ruby_version = ">= 2.3.0"
   s.summary = "Ruby library for the ClickUp API"
   s.description = "ClickUp: One app to replace them all."
