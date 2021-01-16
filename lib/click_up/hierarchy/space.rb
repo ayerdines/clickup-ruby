@@ -5,6 +5,7 @@ module ClickUp
     extend ClickUp::APIOperations::All
     extend ClickUp::APIOperations::Create
     extend ClickUp::APIOperations::Get
+    extend ClickUp::APIOperations::Delete
 
     class << self
       def index_path(params={})

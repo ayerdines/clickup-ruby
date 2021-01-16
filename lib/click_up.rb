@@ -11,6 +11,7 @@ require 'click_up/api_resource'
 require 'click_up/api_operations/create'
 require 'click_up/api_operations/get'
 require 'click_up/api_operations/all'
+require 'click_up/api_operations/delete'
 
 require 'click_up/hierarchy/team'
 require 'click_up/hierarchy/space'

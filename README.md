@@ -1,5 +1,5 @@
 # ClickUp API Ruby Library
- ClickUp API solution for Ruby. As of now, it doesn't support OAuth Authentication. You can only use personal token based authentication.
+ ClickUp API solution for Ruby. As of `v0.1.1`, it doesn't support OAuth Authentication. You can only use personal token based authentication.
 
 # Getting Started
 
@@ -38,6 +38,8 @@ ClickUp::Space.all(team_id: 3451451)
 ClickUp::Space.create(team_id: 3451451, name: 'Space From API')
 
 ClickUp::Space.get(323455)
+
+ClickUp::Space.delete(323455)
 ```
 
 ## Folder
@@ -45,6 +47,8 @@ ClickUp::Space.get(323455)
 ClickUp::Folder.create(space_id: 323455, name: 'Folder From API')
 
 ClickUp::Folder.get(756376)
+
+ClickUp::Folder.delete(756376)
 ```
 
 ## List
